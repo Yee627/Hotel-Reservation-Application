@@ -1,5 +1,5 @@
 # Hotel Reservation Application
-- Introduction
+- #####Introduction
   - This is a Java hotel reservation application from [Udacity Java Programming Course](https://www.udacity.com/course/java-programming-nanodegree--nd079). The hotel reservation application will allow customers to find and book a hotel room based on room availability. This project will be involved designing classes using OOP, organizing and processing data with collections, and using common Java types.
   
 - Application Architecture
@@ -34,6 +34,7 @@
 - Customer Requirements
   - A unique email for the customer. RegEx is used to check that the email is in the correct format (i.e., name@domain.com).
   - A first name and last name.
+  
   <sub> The email RegEx is simple for the purpose of this exercise and may not cover all real-world valid emails. For example "name@domain.co.uk" would not be accepted by the above RegEx because it does end with ".com". If you would like to try to make your RegEx more sophisticated, you may—but it is not required for this project.</sub>
   
 - Error Requirements
