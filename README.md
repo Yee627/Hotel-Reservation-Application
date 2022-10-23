@@ -1,6 +1,6 @@
 # Hotel Reservation Application
 - Introduction
-  This is a Java hotel reservation application from [Udacity Java Programming Course](link: https://www.udacity.com/course/java-programming-nanodegree--nd079). The hotel reservation application will allow customers to find and book a hotel room based on room availability. This project will be involved designing classes using OOP, organizing and processing data with collections, and using common Java types.
+  - This is a Java hotel reservation application from [Udacity Java Programming Course](link: https://www.udacity.com/course/java-programming-nanodegree--nd079). The hotel reservation application will allow customers to find and book a hotel room based on room availability. This project will be involved designing classes using OOP, organizing and processing data with collections, and using common Java types.
   
 - Application Architecture
   - User interface (UI), including a main menu for the users who want to book a room, and an admin menu for administrative functions.
@@ -19,3 +19,8 @@
   - Viewing all of the rooms in the hotel.
   - Viewing all of the hotel reservations.
   - Adding a room to the hotel application.
+
+- Reservation Requirements
+  - Avoid conflicting reservations. A single room may only be reserved by a single customer per a checkin and checkout date range.
+  - Search for recommended rooms. If there are no available rooms for the customer's date range, a search will be performed that displays recommended rooms on alternative dates. The recommended room search will add seven days to the original checkin and checkout dates to see if the hotel has any availabilities, and then display the recommended rooms/dates to the customer.
+  > Example: If the customers date range search is 1/1/2020 – 1/5/2020 and all rooms are booked, the system will search again for recommended rooms using the date range 1/8/2020 - 1/12/2020. If there are no recommended rooms, the system will not return any rooms.
