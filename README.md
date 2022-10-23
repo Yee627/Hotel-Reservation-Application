@@ -1,5 +1,5 @@
 # Hotel Reservation Application
-- #####Introduction
+###Introduction
   - This is a Java hotel reservation application from [Udacity Java Programming Course](https://www.udacity.com/course/java-programming-nanodegree--nd079). The hotel reservation application will allow customers to find and book a hotel room based on room availability. This project will be involved designing classes using OOP, organizing and processing data with collections, and using common Java types.
   
 - Application Architecture
