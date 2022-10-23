@@ -35,7 +35,7 @@
   - A unique email for the customer. RegEx is used to check that the email is in the correct format (i.e., name@domain.com).
   - A first name and last name.
 
-  > The email RegEx is simple for the purpose of this exercise and may not cover all real-world valid emails. For example "name@domain.co.uk" would not be accepted by the above RegEx because it does end with ".com". If you would like to try to make your RegEx more sophisticated, you may—but it is not required for this project.
+  <sub> The email RegEx is simple for the purpose of this exercise and may not cover all real-world valid emails. For example "name@domain.co.uk" would not be accepted by the above RegEx because it does end with ".com". If you would like to try to make your RegEx more sophisticated, you may—but it is not required for this project.</sub>
   
 - Error Requirements
   - No crashing. The application does not crash based on user input.
