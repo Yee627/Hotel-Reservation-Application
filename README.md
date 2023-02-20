@@ -22,11 +22,9 @@
 
 ### Reservation Requirements
   - Avoid conflicting reservations. A single room may only be reserved by a single customer per a checkin and checkout date range.
-  - Search for recommended rooms. If there are no available rooms for the customer's date range, a search will be performed that displays recommended rooms on alternative dates. The recommended room search will add seven days to the original checkin and checkout dates to see if the hotel has any availabilities, and then display the recommended rooms/dates to the customer.
-    - Example: If the customers date range search is 1/1/2020 – 1/5/2020 and all rooms are booked, the system will search again for recommended rooms using the date range 1/8/2020 - 1/12/2020. If there are no recommended rooms, the system will not return any rooms.</sub>
 
 ### Room Requirements
-  - Room cost. Rooms will contain a price per night. When displaying rooms, paid rooms will display the price per night and free rooms will display "Free" or have a $0 price.
+  - Room cost. Rooms will contain a price per night. When displaying rooms, paid rooms will display the price per night.
   - Unique room numbers. Each room will have a unique room number, meaning that no two rooms can have the same room number.
   - Room type. Rooms can be either single occupant or double occupant (Enumeration: SINGLE, DOUBLE).
   
